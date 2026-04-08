@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom clip shape for hero section */
+/* Image cut (top diagonal) */
+.clip-image {
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 90%);
+}
+
+/* Overlay shape (bottom triangle like reference) */
+.clip-overlay {
+  clip-path: polygon(0 50%, 100% 20%, 100% 100%, 0% 100%);
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide {
+  animation: slide 0.4s ease;
+}
+
