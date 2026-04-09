@@ -23,14 +23,13 @@ Key Concepts Used
 * Dynamic theming
 * Layout stability (fixed grid)
 
-Preview
-
-![App Screenshot](./preview.png)
 
 Installation
 
 bash
+
 npm install
+
 npm run dev
 
 
