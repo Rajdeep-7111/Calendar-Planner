@@ -1,8 +1,8 @@
-<!-- # Animated Calendar Planner
+Animated Calendar Planner
 
 A modern, interactive calendar web app built with **React + Tailwind CSS**.
 
- Features
+Features
 
 * Monthly calendar view
 * Date range selection (start → end)
@@ -13,7 +13,7 @@ A modern, interactive calendar web app built with **React + Tailwind CSS**.
 * Weekend highlighting
 * Today indicator
 
-## Key Concepts Used
+Key Concepts Used
 
 * React state management
 * Controlled components
@@ -23,31 +23,31 @@ A modern, interactive calendar web app built with **React + Tailwind CSS**.
 * Dynamic theming
 * Layout stability (fixed grid)
 
-##  Preview
+Preview
 
 ![App Screenshot](./preview.png)
 
-##  Installation
+Installation
 
-```bash
+bash
 npm install
 npm run dev
-```
 
-##  Tech Stack
+
+Tech Stack
 
 * React.js
 * Tailwind CSS
 * Vite
 * date-fns
 
-##  Future Improvements
+Future Improvements
 
 * Persist notes using localStorage
 * Add yearly view
 * Add reminders / events
 * Dark mode toggle
 
-##  Author
+Author
 
 Rajdeep Sonkar
